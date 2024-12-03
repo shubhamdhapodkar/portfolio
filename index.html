@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <!-- <img src="image/logo.png" alt="" class="logo"> -->
+            <a href="" class="a"><span>S</span>hubham</a>
+            <nav class="d-flex justify-content-end">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fa fa-times" onclick="closemenu()" aria-hidden="true"></i>
+                </ul>
+                <i class="fa fa-bars float-right" onclick="openmenu()" aria-hidden="true"></i>
+            </nav>
+            <div class="header-text">
+                <p>MEAN STACK DEVELOPER </p>
+                <h1>Hi I'am <span>Shubham</span><br>Dhapodkar From Nagpur</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/shubh.jpg" alt="" width="100%">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! My name is Shubham Dhapodkar, I am MEAN STACK Developer.. Having 1+ years of experience in developing Web and Enterprise Applications using technologies
+                        Java / J2EE, spring, Spring Boot , Hibernate (Basic) ,& Node js.
+                        Hands on experience in Core Java, JDBC, Servlets, JSP, Spring , Hibernate , Web Services, Spring
+                    Boot ,HTML ,CSS, Bootstrap,js,Angular.
+                        Cohesive Team worker, Flexible ,Can work under pressure to meet deadlines.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Froent End Devlopment</span><br>Angular,Html,Css,Javascript,Bootstrap</li>
+                            <li><span>Back End Devlopment</span><br>Core Java, Servlets, JSP, Spring ,Hibernate , Web Services, Spring
+                                Boot,Node Js ,REST Api,Postman,Database.
+                            </li>
+                            <li><span>App Devlopment</span><br> Android App Devlopment</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>AnkHub Technology Services</span><br>Developing Basic CRUD Operations/REST API's.Responsible for developing REST API's in spring boot with 
+                                end to end functionality.  06/2021 - Present,
+                                </li>
+                            <li><span>Networks Hub Intern </span><br>WordPress Developer. (March 2020 to Dec 2020) <br>
+                                System Administrator. (January 2020 to March 2020) 
+                               </li>
+            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E (Computer Science & Engineering) </span><br>Rajiv Gandhi College of Engineering, 
+                                06/2015 - 06/2018
+                                </li>
+                            <li><span>Polytechnic</span><br>Late Vasantdada polytechnic, 	 	
+ 
+                                06/2012 - 06/2015,
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, laudantium culpa! Odio vel amet
+                        consequuntur, eveniet est veniam rem? Dolorum veritatis consequuntur iure fugit laborum in
+                        explicabo quia dolores blanditiis?</p>
+                    <a href="#">Learn More!</a>
+                </div>
+                <div>
+                    <i class="fa fa-crop" aria-hidden="true"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, laudantium culpa! Odio vel amet
+                        consequuntur, eveniet est veniam rem? Dolorum veritatis consequuntur iure fugit laborum in
+                        explicabo quia dolores blanditiis?</p>
+                    <a href="#">Learn More!</a>
+                </div>
+                <div>
+                    <i class="fa fa-apple" aria-hidden="true"></i>
+                    <h2>App Devlopment</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, laudantium culpa! Odio vel amet
+                        consequuntur, eveniet est veniam rem? Dolorum veritatis consequuntur iure fugit laborum in
+                        explicabo quia dolores blanditiis?</p>
+                    <a href="#">Learn More!</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -----portfolio--- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/mywork1.jpg" alt="" width="100%">
+                    <div class="layer">
+                        <h3>Digitic</h3>
+                        <p>Responsible for developing REST API's in Node Js with 
+                            end to end functionality.</p>
+                        <a href="https://github.com/shubhamdhapodkar/ecom-web"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/mywork2.jpeg" alt="" width="100%">
+                    <div class="layer">
+                        <h3>Burger King</h3>
+                        <p>Create A web Page</p>
+                        <a href="https://shubhamdhapodkar.github.io/burger-king/"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/mywork3.jpeg" alt="" width="100%" height="">
+                    <div class="layer">
+                        <h3>MINA Ecommerce</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae aspernatur libero, illum
+                            tenetur, inventore quia</p>
+                        <a href="https://minaresponsive.netlify.app/"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More!</a>
+        </div>
+    </div>
+
+    <!-- --------contact--- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">My Contact</h1>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i> dhapodkarshubham@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i> 91+8237503727</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+                        <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="image/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="your Email" required>
+                        <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ shubham. Made With <i class="fa fa-heart" aria-hidden="true"></i> by w3schools.com </p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = '0';
+        }
+
+        function closemenu() {
+            sidemenu.style.right = '-200px';
+        }
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwAWPvYanIbWNhTBL7SVZgiQ_8Bwjn0iIGlQ3SrjMRjaWhzzsGPFFk8QJfJayaeopKJ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = " "
+                    }, 5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
